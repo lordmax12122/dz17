@@ -19,6 +19,6 @@ linkButton.addEventListener("click", () => {
                 photoList.innerHTML += makeMaket(data.hits);
         })
         .catch((error) => {
-            console.error("Помилка при завантаженні фото:", error);
+            console.error("Error:", error);
         });
 });
